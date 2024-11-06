@@ -3,7 +3,6 @@
 A captivating spiral hypnotic animation created using only HTML and CSS! This effect uses expanding, fading circles to create a hypnotic, eye-catching animation that draws in viewers.
 
 ![Spiral Animation Preview](https://raw.githubusercontent.com/adhilshan/spiral-animation/refs/heads/main/Screenshot%202024-11-06%20125546.png)  
-*(Link to a GIF or live demo of the animation)*
 
 ## Features
 
