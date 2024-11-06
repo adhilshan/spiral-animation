@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: lightblue;
+        z-index: 1;
+      }
+
+      * {
+        overflow: hidden;
+        margin: 0;
+      }
+      body {
+        background: #222;
+      }
+
+      .absolute {
+      }
+      .circles {
+        margin: 0 auto;
+        width: 20vw;
+        height: 20vw;
+        border: 5px solid white;
+        border-radius: 50%;
+        item-align: center;
+        justify-content: center;
+        position: absolute;
+        margin-left: 40%;
+        top: 40%;
+      }
+      .one {
+        animation: circles 4.4s infinite linear;
+      }
+      .two {
+        animation: circles 4.4s infinite linear;
+        animation-delay: 0.5s;
+      }
+      .three {
+        animation: circles 4.4s infinite linear;
+        animation-delay: 1s;
+      }
+      .four {
+        animation: circles 4.4s infinite linear;
+        animation-delay: 1.5s;
+      }
+      .five {
+        animation: circles 4.4s infinite linear;
+        animation-delay: 2s;
+      }
+      .six {
+        animation: circles 4.4s infinite linear;
+        animation-delay: 2.5s;
+      }
+      .seven {
+        animation: circles 4.4s infinite linear;
+        animation-delay: 3s;
+      }
+      .eight {
+        animation: circles 4.4s infinite linear;
+        animation-delay: 3.5s;
+      }
+      .nine {
+        animation: circles 4.4s infinite linear;
+        animation-delay: 4s;
+      }
+      @keyframes circles {
+        from {
+          transform: scale(0.3);
+          display: none;
+        }
+        to {
+          transform: scale(6);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="absolute">
+      <div class="circles one"></div>
+      <div class="circles two"></div>
+      <div class="circles three"></div>
+      <div class="circles four"></div>
+      <div class="circles five"></div>
+      <div class="circles six"></div>
+      <div class="circles seven"></div>
+      <div class="circles eight"></div>
+      <div class="circles nine"></div>
+    </div>
+  </body>
+</html>
